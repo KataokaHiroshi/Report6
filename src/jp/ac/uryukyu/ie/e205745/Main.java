@@ -5,6 +5,8 @@ public class Main {
         String firstimput = "a";
         String secondimput = "e";
         double kyori = Solver.distanceCalc(firstimput, secondimput);
+        int unchin = Solver.feeCalc(kyori);
         System.out.println("指定された駅までの距離:" + kyori + "km");
+        System.out.println("運賃:" + unchin + "円");
     }
 }
